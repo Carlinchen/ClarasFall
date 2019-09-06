@@ -76,7 +76,7 @@ nav span {
   padding-left: 50px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
 
 nav{
     display: none;
@@ -103,7 +103,7 @@ nav{
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
 
   .container{
     width: 100%;
@@ -142,7 +142,7 @@ nav{
   width: 60%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
 
   .section2 .imagecontainerleft {
     display: flex;
@@ -174,7 +174,7 @@ nav{
   justify-content: flex-start;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
 
   .textright {
     display: flex;
@@ -207,7 +207,7 @@ nav{
   padding: 8px 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
 
   .infocontainersmall {
     display: flex;
@@ -256,7 +256,7 @@ nav{
   margin-bottom: -64px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
 
   .section3 {
     background-color: #0A0E35;
@@ -271,7 +271,7 @@ nav{
   width: 50%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
 
   .courses {
     width: 80%;
