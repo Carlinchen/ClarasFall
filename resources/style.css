@@ -149,7 +149,7 @@ nav{
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin: auto;
+    flex-grow: 1;
 }
 
 .imagecontainerleft h1, p {
