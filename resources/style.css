@@ -13,12 +13,11 @@ body {
 }
 
 h1 {
-  margin: 0 0 30px 0;
   font-family: "alegreya-sans", sans-serif;
   font-size: 3.5rem;
   font-weight: 50;
   text-align: center;
-  padding: 30px 0px 0px 0px;
+  padding: 30px 0px 30px 0px;
 }
 
 h2 {
@@ -153,7 +152,7 @@ nav{
     padding: 0 0 3rem 0;
 }
 
-.imagecontainerleft h2, p {
+.imagecontainerleft h1, p {
   padding: 10px;
   text-align: center;
 }
