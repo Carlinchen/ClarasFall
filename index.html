@@ -7,8 +7,11 @@
     <link rel='stylesheet' type='text/css' href='resources/reset.css'>
     <link rel='stylesheet' type='text/css' href='resources/style.css'>
     <link rel="stylesheet" href="https://use.typekit.net/kvm4bnz.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100&display=swap" rel="stylesheet">
     <link rel="icon" href="./resources/favicon-clarasfall.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/font-awesome.min.css">
   </head>
   <body>
 
@@ -19,10 +22,10 @@
           <img src="./resources/logo1.jpg">
         </div>
         <nav class="desktop">
-        	<span><a href="#">Musik</a></span>
-        	<span><a href="#">Band</a></span>
-        	<span><a href="#">Live</a></span>
-        	<span><a href="#">Kontakt</a></span>
+        	<span><a href="#tracks">Musik</a></span>
+        	<span><a href="#band">Band</a></span>
+        	<span><a href="#live">Live</a></span>
+        	<span><a href="#kontakt">Kontakt</a></span>
         </nav>
       </header>
 
@@ -33,13 +36,13 @@
       <div class="container">
           <div class="imagecontainerleft">
              <img class="imageleft"src="./resources/Einstiegsbanner.jpg" alt="Bandprobe Clara's Fall">
-             <h1>Clara's Fall - Die Band</h1>
+             <h1 id="band">Clara's Fall - Die Band</h1>
              <p>" Clara's Fall ist eine Newcomer Indie Band aus Leipzip. Entdeckt das neue Album. Erhöltlich ab Oktober.Clara's Fall ist eine Newcomer Indie Band aus Leipzip. Entdeckt das neue Album. Erhöltlich ab Oktober. Clara's Fall ist eine Newcomer Indie Band aus Leipzip. Entdeckt das neue Album. Erhöltlich ab Oktober.Clara's Fall ist eine Newcomer Indie Band aus Leipzip. Entdeckt das neue Album. Erhöltlich ab Oktober."</p>
           </div>
           <div class="textright">
               <div class="infocontainersmall">
                 <div class="textsmallright">
-                    <h3>Bastion</h3>
+                    <h3 id="live">Bastion</h3>
                     <p>Donnerstag 10.09. & Freitag 11.09.</p>
                     <p>20:00-01:00</p>
                 </div>
@@ -67,7 +70,7 @@
     <div class="section3">
       <div class="container2 ">
           <div class="headline">
-             <h2>Tracks</h2>
+             <h2 id="tracks">Tracks</h2>
           </div>
           <div class="courses">
               <div class="course">
@@ -96,11 +99,14 @@
                 </audio>
               </div>
       </div>
+      <div  id="kontakt" class="container3">
+        <span>info@beispiel.de</span>
+        <i class="fa fa-facebook-square" style="font-size: 1.5rem;color:#FFFFFF;"></i>
+        <i class="fa fa-instagram" style="font-size: 1.5rem;color:#FFFFFF;"></i>
+        <span>Datenschutz</span>
+        <span>Impressum</span>
       </div>
-
-
-    <!-- Footer Section -->
-
+      </div>
 
   </body>
 </html>
