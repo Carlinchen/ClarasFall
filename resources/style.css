@@ -46,7 +46,7 @@ header {
   z-index: 1;
   width: 100%;
   height: auto;
-  background-color: #C1E6FF;
+  background-image: url("./Bild.jpg");
   font-family: "Lato", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
@@ -60,12 +60,12 @@ header a:hover {color:#795F71;text-decoration: none;}
 .logo {
   display: flex;
   align-items: center;
-  padding-left: 1.5rem;
+  padding: 1rem 0rem 1rem 1.5rem;
   flex-grow: 1;
 }
 
 .logo img {
-  height: 5rem;
+  height: 3rem;
 }
 
 nav {
@@ -249,7 +249,7 @@ nav{
 .section3 {
   display: flex;
   width: 100%;
-  background-image: url("./Bild.png");
+  background-image: url("./Bild.jpg");
   background-size: cover;
   color: #0A0E35;
 }
