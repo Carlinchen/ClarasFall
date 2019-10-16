@@ -1,0 +1,546 @@
+html {
+  width: 100%;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 50;
+  text-align: center;
+  padding: 1.875rem 0px 1.875rem 0px;
+}
+
+h2 {
+  margin: 32px 0 32px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+h3 {
+  margin: 1rem 0 0.5rem 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  margin-top: 0rem;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  background-color: #0A0E35;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 0 0 0.125rem 0;
+  border-color: #FFFFFF;
+}
+
+header a:link {
+  color:#0FFFFFF;text-decoration: none;
+  transition-delay: 2s;
+}
+header a:active {color:#FFFFFF;text-decoration: none;}
+header a:visited {color:#FFFFFF;text-decoration: none;}
+header a:hover {color:#795F71;text-decoration: none;}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0rem 1rem 1.5rem;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 4rem;
+}
+
+nav {
+  padding-right: 1.5rem;
+}
+
+nav span {
+  display: inline-block;
+  padding-left: 3.125rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+nav{
+    display: none;
+}
+
+.logo{
+  padding: 0rem;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* Main Section 1*/
+
+
+.container1 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .container1{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+}
+.section1 .imagecontainerleft  {
+  display: flex;
+  flex-direction: column;
+  padding: 20rem 5rem 3rem 5rem;
+  width: 60%;
+}
+
+/* Main Section 2*/
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+.section1 {
+  display: flex;
+  height: 72rem;
+  width: 100%;
+  background-image: url("./Fotos/Völki+Ego.jpg");
+  background-size: 100% auto;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 1000px) {
+
+  .section1{
+    display: none;
+}
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: flex-start;
+}
+}
+
+.section2 {
+  display: flex;
+  width: 100%;
+  background-color: #0A0E35;
+  color: #FFFFFF;
+  flex-direction: column;
+}
+
+.section2 p, .section1 p {
+  font-size: 1.2rem;
+  line-height: 1;
+  text-align: left;
+}
+
+.section2 span, .section2 span {
+  font-size: 0.9375rem;
+  line-height: 1.2;
+}
+
+.section2 .imagecontainerleft {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+  width: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .section2 .imagecontainerleft, .section1 .imagecontainerleft{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0.125rem;
+    flex-grow: 1;
+}
+
+.imagecontainerleft h1, p {
+  padding: 0.625rem;
+  text-align: center;
+}
+}
+
+
+.imageleft {
+  width: 100%;
+  height: auto;
+}
+
+
+.textright {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .textright {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+  }
+}
+
+
+.infocontainersmall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.textsmallright {
+  padding: 1rem 1rem 1rem;
+  width: 65%;
+}
+
+.textsmallright a {
+  color: #C1E6FF;
+}
+
+.textsmallright p{
+  padding: 0.5rem 0;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .infocontainersmall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .textsmallright {
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    width: 50%;
+    text-align: left;
+  }
+
+  .textsmallright p, h3 {
+    padding: 0rem;
+    text-align: center;
+  }
+}
+
+
+/*Slider */
+
+.sliderElements,
+.sliderElements figure,
+.sliderControls {
+    margin: 0 0 1rem 0 ;
+
+}
+
+.sliderElements:after {
+    content: ".";
+    display: block;
+    height: .1px;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.cssSlider {
+    overflow-x: hidden;
+    width: 30rem;
+}
+
+.sliderElements {
+    list-style: none;
+    position: relative;
+    left: 0;
+    width: 500%;
+    margin-bottom: 1rem;
+    padding: 0;
+    -webkit-transition: left .8s ease-in-out;
+    -moz-transition: left .8s ease-in-out;
+    -o-transition: left .8s ease-in-out;
+    transition: left .8s ease-in-out;
+}
+
+.sliderElements > li {
+    float: left;
+    width: 20%;
+    position: relative;
+}
+
+#slide02:checked ~ .sliderElements {
+    left: -100%;
+}
+
+#slide03:checked ~ .sliderElements {
+    left: -200%;
+}
+
+#slide04:checked ~ .sliderElements {
+    left: -300%;
+}
+#slide05:checked ~ .sliderElements {
+    left: -400%;
+}
+
+/* Bildunterschrift auf dem Bild positionieren */
+.sliderElements figcaption {
+    display: block;
+    color: #fff;
+    position: absolute;
+    left: 0rem;
+    bottom: 2rem;
+    padding: .125rem;
+    background: #0A0E35;
+}
+
+/* Bilder responsive */
+.sliderElements img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* inputs aus dem Blickfeld schieben */
+.cssSlider input {
+    position: absolute;
+    left: -99999px;
+}
+
+/* mittige Ausrichtung der Controls - funktioniert im Zusammenspiel mit inline-block */
+.sliderControls {
+    text-align: center;
+}
+
+/* Controls nebeneinander bringen */
+.sliderControls li {
+    display: inline-block;
+}
+
+/* Controls auf einheitliche Maße bringen und die Ecken abrunden */
+.sliderControls label {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    background: #0A0E35;
+    color: #FFFFFF;
+}
+
+.sliderControls label:hover,
+#slide01:checked ~ .sliderControls label[for="slide01"],
+#slide02:checked ~ .sliderControls label[for="slide02"],
+#slide03:checked ~ .sliderControls label[for="slide03"],
+#slide04:checked ~ .sliderControls label[for="slide04"],
+#slide05:checked ~ .sliderControls label[for="slide05"]
+{
+    background: #ddd;
+    color: #ddd;
+}
+
+
+/* Main Section 3*/
+
+
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headliner h2{
+  justify-content: center;
+}
+.zurück {
+  width:100%;
+  justify-content: right;
+  text-align: right;
+  font-size: 1.5rem;
+  font-style: 400;
+}
+
+.section3 span {
+  font-size: 0.9375rem;
+  line-height: 1.2;
+}
+
+
+.section3 {
+  display: flex;
+  width: 100%;
+  background-image: url("./Bild.jpg");
+  background-size: cover;
+  color: #0A0E35;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .section3 {
+    background-color: #0A0E35;
+    color: #FFFFFF;
+  }
+  .dontshowmobile {
+    display: none;
+  }
+}
+
+.courses {
+  display: flex;
+  padding: 0rem 0rem 5rem 0rem;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .courses {
+    width: 80%;
+  }
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem;
+  margin: 0.625rem;
+  background-color: #0A0E35;
+  border-radius: 0.9375rem;
+}
+
+.course h3 {
+  margin-left: 1rem;
+  color: #FFFFFF;
+}
+
+#audio_with_controls {
+  width: 100%;
+}
+
+
+/* Main Section 4*/
+
+.container3 {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  margin: 3rem 0 0 0;
+  background-color: #0A0E35;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container3 span {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.Stephke {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.stephkebild {
+  width:15rem;
+  padding: 2rem;
+}
+.stephkebild p {
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.stephkebild img {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  height: 4rem;
+  background-color: #6499F0;
+  font-family: "Source Serif Pro";
+  font-size: 1rem;
+  margin: 0px;
+  position: absolute;
+}
