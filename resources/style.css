@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  margin: 32px 0 32px 0;
+  margin: 2rem 0 2rem 0;
   font-family: "Lato", sans-serif;
   font-size: 3rem;
   font-weight: 600;
@@ -47,10 +47,7 @@ header {
   z-index: 1;
   width: 100%;
   height: auto;
-  background-color: #0A0E35;
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
   border-style: solid;
   border-width: 0 0 0.125rem 0;
   border-color: #FFFFFF;
@@ -58,11 +55,10 @@ header {
 
 header a:link {
   color:#0FFFFFF;text-decoration: none;
-  transition-delay: 2s;
 }
 header a:active {color:#FFFFFF;text-decoration: none;}
 header a:visited {color:#FFFFFF;text-decoration: none;}
-header a:hover {color:#795F71;text-decoration: none;}
+header a:hover {color:#FFFFFF;text-decoration: underline; }
 
 
 .logo {
@@ -82,7 +78,8 @@ nav {
 
 nav span {
   display: inline-block;
-  padding-left: 3.125rem;
+  padding: 2.5rem 0 0 3.125rem;
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -93,11 +90,13 @@ nav{
 
 .logo{
   padding: 0rem;
+  justify-content: center;
 }
 
 .logo img{
-    width: 100%;
+    width: 40%;
     height: auto;
+    padding: 0.5rem;
   }
 }
 
@@ -127,7 +126,7 @@ nav{
 .section1 .imagecontainerleft  {
   display: flex;
   flex-direction: column;
-  padding: 20rem 5rem 3rem 5rem;
+  padding: 28rem 35rem 3rem 10rem;
   width: 60%;
 }
 
@@ -139,6 +138,8 @@ nav{
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
+
 }
 
 
@@ -150,6 +151,7 @@ nav{
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 }
@@ -186,9 +188,11 @@ nav{
 .section2 {
   display: flex;
   width: 100%;
-  background-color: #0A0E35;
   color: #FFFFFF;
   flex-direction: column;
+  justify-content: center;
+  background-image: url("./Fotos/Startbild.jpg");
+  background-size: 100% auto;
 }
 
 .section2 p, .section1 p {
@@ -197,9 +201,10 @@ nav{
   text-align: left;
 }
 
-.section2 span, .section2 span {
-  font-size: 0.9375rem;
-  line-height: 1.2;
+.section2 span {
+  font-size: 1.35rem;
+  line-height: 1;
+  font-weight: 900;
 }
 
 .section2 .imagecontainerleft {
@@ -232,38 +237,27 @@ nav{
   height: auto;
 }
 
-
 .textright {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  height: 100%;
-  justify-content: flex-start;
-}
-
-@media only screen and (max-width: 1000px) {
-
-  .textright {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     justify-content: center;
     padding: 2rem 1.5rem;
+    margin: 5rem;
   }
-}
-
 
 .infocontainersmall {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+
 }
 
 .textsmallright {
-  padding: 1rem 1rem 1rem;
   width: 65%;
+  text-align: center;
+  padding:0.8rem;
 }
 
 .textsmallright a {
@@ -274,6 +268,10 @@ nav{
   padding: 0.5rem 0;
 }
 
+.textsmallright p, h3, h2 {
+  text-align: center;
+}
+
 @media only screen and (max-width: 1000px) {
 
   .infocontainersmall {
@@ -281,18 +279,28 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .textsmallright {
-    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
     width: 50%;
-    text-align: left;
+    padding: 0;
   }
 
-  .textsmallright p, h3 {
+  .textsmallright p, h3, h2 {
     padding: 0rem;
     text-align: center;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.0rem;
+  }
+  p {
+    font-size: 0.8rem;
   }
 }
 
@@ -319,6 +327,8 @@ nav{
 .cssSlider {
     overflow-x: hidden;
     width: 60%;
+    border: solid 0.2rem;
+    background-color: #0A0E35;
 }
 
 .sliderElements {
@@ -410,7 +420,7 @@ nav{
 #slide05:checked ~ .sliderControls label[for="slide05"]
 {
     background: #ddd;
-    color: #ddd;
+    color: #0A0E35;
 }
 
 
@@ -500,7 +510,7 @@ nav{
   display: flex;
   width: 100%;
   height: 4rem;
-  margin: 3rem 0 0 0;
+  margin: 0 0 0 0;
   background-color: #0A0E35;
   justify-content: space-around;
   align-items: center;
@@ -510,6 +520,14 @@ nav{
   color: #FFFFFF;
   font-size: 1rem;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .container3 {
+    flex-direction: column;
+    height: 10rem;
+  }
 }
 
 .Stephke {
@@ -532,15 +550,10 @@ nav{
   width: 100%;
 }
 
-/* Footer */
-footer {
-  display: flex;
-  z-index: 1;
-  width: 100%;
-  height: 4rem;
-  background-color: #6499F0;
-  font-family: "Source Serif Pro";
-  font-size: 1rem;
-  margin: 0px;
-  position: absolute;
+@media only screen and (max-width: 1000px) {
+
+  .stephkebild {
+    width:15rem;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+  }
 }
