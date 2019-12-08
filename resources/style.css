@@ -48,9 +48,7 @@ header {
   width: 100%;
   height: auto;
   font-family: "Lato", sans-serif;
-  border-style: solid;
-  border-width: 0 0 0.125rem 0;
-  border-color: #FFFFFF;
+
 }
 
 header a:link {
@@ -66,10 +64,6 @@ header a:hover {color:#FFFFFF;text-decoration: underline; }
   align-items: center;
   padding: 1rem 0rem 1rem 1.5rem;
   flex-grow: 1;
-}
-
-.logo img {
-  height: 4rem;
 }
 
 nav {
@@ -126,15 +120,15 @@ nav{
 .section1 .imagecontainerleft  {
   display: flex;
   flex-direction: column;
-  padding: 28rem 35rem 3rem 10rem;
-  width: 60%;
+  padding: 10rem 40rem 3rem 10rem;
+  width: 40%;
+  color: #1C1C1C;
 }
 
 /* Main Section 2*/
 
 
 .container {
-  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -186,13 +180,13 @@ nav{
 }
 
 .section2 {
-  display: flex;
   width: 100%;
+  display: flex;
   color: #FFFFFF;
   flex-direction: column;
   justify-content: center;
   background-image: url("./Fotos/Startbild.jpg");
-  background-size: 100% auto;
+  background-size: 100%;
 }
 
 .section2 p, .section1 p {
@@ -228,10 +222,10 @@ nav{
 .imagecontainerleft h1, p {
   padding: 0.625rem;
   text-align: center;
-}
 
 }
 
+}
 
 .imageleft {
   width: 100%;
@@ -241,14 +235,13 @@ nav{
 .textright {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: auto;
     justify-content: center;
     padding: 1rem 0;
-    margin: 1rem 0;
+    margin: 30rem 0 10rem 0;
   }
 
 .infocontainersmall {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +249,7 @@ nav{
 }
 
 .textsmallright {
-  width: 65%;
+  width: 100%;
   text-align: center;
   padding:0.8rem;
 }
@@ -330,9 +323,7 @@ nav{
 
 .cssSlider {
     overflow-x: hidden;
-    width: 60%;
-    border: solid 0.2rem;
-    background-color: #0A0E35;
+    width: 45%;
 }
 
 .sliderElements {
@@ -459,8 +450,7 @@ nav{
 .section3 {
   display: flex;
   width: 100%;
-  background-image: url("./Bild.jpg");
-  background-size: cover;
+  background-color: #58ACFA;
   color: #0A0E35;
 }
 
@@ -494,7 +484,6 @@ nav{
   flex-direction: column;
   padding: 0.625rem;
   margin: 0.625rem;
-  background-color: #0A0E35;
   border-radius: 0.9375rem;
 }
 
