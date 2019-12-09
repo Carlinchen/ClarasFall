@@ -54,9 +54,9 @@ header {
 header a:link {
   color:#0FFFFFF;text-decoration: none;
 }
-header a:active {color:#FFFFFF;text-decoration: none;}
-header a:visited {color:#FFFFFF;text-decoration: none;}
-header a:hover {color:#FFFFFF;text-decoration: underline; }
+header a:active {color:#FFE7BA;text-decoration: none;}
+header a:visited {color:#FFE7BA;text-decoration: none;}
+header a:hover {color:#FFE7BA;text-decoration: underline; }
 
 
 .logo {
@@ -64,6 +64,11 @@ header a:hover {color:#FFFFFF;text-decoration: underline; }
   align-items: center;
   padding: 1rem 0rem 1rem 1.5rem;
   flex-grow: 1;
+}
+
+.logo img{
+
+width: 32rem;
 }
 
 nav {
@@ -120,7 +125,7 @@ nav{
 .section1 .imagecontainerleft  {
   display: flex;
   flex-direction: column;
-  padding: 10rem 40rem 3rem 10rem;
+  margin: 10rem 40rem 3rem 10rem;
   width: 40%;
   color: #1C1C1C;
 }
@@ -152,11 +157,11 @@ nav{
 
 .section1 {
   display: flex;
-  height: 72rem;
+  height: 80rem;
   width: 100%;
   background-image: url("./Fotos/Völki+Ego.jpg");
   background-size: 100% auto;
-  color: #FFFFFF;
+  color: #FFE7BA;
 }
 @media only screen and (max-width: 1000px) {
 
@@ -181,12 +186,13 @@ nav{
 
 .section2 {
   width: 100%;
+  height: auto;
   display: flex;
-  color: #FFFFFF;
+  color: #FFE7BA;
   flex-direction: column;
   justify-content: center;
   background-image: url("./Fotos/Startbild.jpg");
-  background-size: 100%;
+  background-size: 100% auto;
 }
 
 .section2 p, .section1 p {
@@ -237,8 +243,57 @@ nav{
     flex-direction: column;
     justify-content: center;
     padding: 1rem 0;
-    margin: 30rem 0 10rem 0;
+    margin: 40rem;
   }
+
+
+  @media only screen and (max-width: 2000px) {
+
+    .textright{
+      width:80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1rem 0;
+      margin: 15.1rem;
+  }
+}
+
+@media only screen and (max-width: 1066px) {
+
+  .textright{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 12rem;
+}
+}
+
+@media only screen and (max-width: 854px) {
+
+  .textright{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 5.2rem;
+}
+}
+
+@media only screen and (max-width: 455px) {
+
+  .textright{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 2rem;
+}
+}
 
 .infocontainersmall {
   width: 100%;
@@ -269,6 +324,7 @@ nav{
 @media only screen and (max-width: 1000px) {
 
   .infocontainersmall {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -277,7 +333,7 @@ nav{
   }
 
   .textsmallright {
-    width: 50%;
+    width: 100%;
     padding: 0;
   }
 
@@ -323,7 +379,7 @@ nav{
 
 .cssSlider {
     overflow-x: hidden;
-    width: 45%;
+    width: 100%;
 }
 
 .sliderElements {
@@ -404,7 +460,7 @@ nav{
     display: block;
     cursor: pointer;
     background: #0A0E35;
-    color: #FFFFFF;
+    color: #FFE7BA;
 }
 
 .sliderControls label:hover,
@@ -450,7 +506,7 @@ nav{
 .section3 {
   display: flex;
   width: 100%;
-  background-color: #58ACFA;
+  background-color: #0A0E35;
   color: #0A0E35;
 }
 
@@ -458,7 +514,7 @@ nav{
 
   .section3 {
     background-color: #0A0E35;
-    color: #FFFFFF;
+    color: #FFE7BA;
   }
   .dontshowmobile {
     display: none;
@@ -489,7 +545,8 @@ nav{
 
 .course h3 {
   margin-left: 1rem;
-  color: #FFFFFF;
+  color: #1C1C1C;
+  font-style: bold;
 }
 
 #audio_with_controls {
@@ -510,7 +567,7 @@ nav{
 }
 
 .container3 span {
-  color: #FFFFFF;
+  color: #FFE7BA;
   font-size: 1rem;
   font-weight: bold;
 }
